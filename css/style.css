@@ -1,0 +1,12 @@
+a{
+    display: block;
+    text-decoration: none;
+    background-color: orange;
+    border: 1px solid black; 
+    margin: 10px; width: fit-content;
+    padding: 8px; color: black;
+}
+
+table, tr, td{
+    border: 1px solid black;
+}
