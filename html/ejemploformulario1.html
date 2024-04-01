@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión Empleados</title>
+</head>
+
+<body>
+    <h1>Gestión Empleados</h1>
+    <form action="">
+        <fieldset style="width: 50%;">
+        <legend>Datos Basicos</legend>
+        <label for="">Tipo de Identificación:</label>
+        <select autofocus name="" id="form" style="width: 200px;">
+            <option value="">Escoja una opcion</option>
+            <option value="">Cedula de Ciudadania</option>
+            <option value="">Cedula de Extranjeria</option>
+            <option value="">Pasaporte</option>
+        </select> <br> <br>
+        Numero de Identificación:
+        <input type="number" required min="1" placeholder="Digite su número..."> <br> <br>
+        Nombres:
+        <input type="text" required size="35"> <br> <br>
+        Apellidos:
+        <input type="text" required size="34"> <br> <br>
+        </fieldset> <br>
+        Sexo:
+        <input type="radio" checked name="sexo">Masculino <br>
+        <input style="margin-left: 45px;" type="radio" name="sexo">Femenino <br><br>
+        Deportes: <br>
+        <input type="checkbox" checked>Basketball <br>
+        <input type="checkbox">Futbol <br>
+        <input type="checkbox">Karate <br>
+        <input type="checkbox">Baseball <br> <br>
+        Observaciones: <br>
+        <textarea cols="45" rows="10"></textarea> <br> <br>
+        Foto: <br>
+        <img src="" alt="Foto seleccionada"> <br>
+        <input type="file" name="Seleccionar..."> <br><br>
+        Correo Electronico:
+        <input type="email"> <br><br>
+        Password:
+        <input type="password"> <br><br>
+        Fecha Nacimiento:
+        <input type="date"> <br> <br>
+        <input value="Guardar" type="submit">
+        <input value="Limpiar" type="reset"> 
+    </form>
+</body>
+
+</html>
